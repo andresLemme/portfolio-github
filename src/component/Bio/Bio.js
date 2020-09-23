@@ -1,11 +1,12 @@
 import React, { useContext } from 'react'
-import ThemeContext from '../../context/ThemeContext'
+import ThemeContext from '../../context/ThemeContext';
+
 
 function Bio() {
   const {info} = useContext(ThemeContext);
   return(
     <div>
-      <p>{info.Bio}</p>
+      <p>{info.bio}</p>
     </div>
   )
 }

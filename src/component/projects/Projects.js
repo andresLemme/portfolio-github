@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import ThemeContext from '../../context/ThemeContext'
+
 import Project from '../project/Project'
 
 function Projects() {

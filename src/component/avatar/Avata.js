@@ -4,7 +4,7 @@ import ThemeContext from '../../context/ThemeContext'
 function Avatar() {
   const {info} = useContext(ThemeContext);
   return(
-    <div>
+    <div className="avatar">
       <img src={info.avatar_url} />
     </div>
   )

@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import ThemeContext from "../../context/ThemeContext";
 
+
 function Navbar() {
 
   const {info} = useContext(ThemeContext)

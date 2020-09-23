@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./component/Navbar/Navbar";
 import Bio from "./component/Bio/Bio";
-import ThemeContext from "./context/ThemeContext";
+import {ThemeProvider} from './context/ThemeContext'
 import Projects from "./component/projects/Projects";
+import Avatar from "./component/avatar/Avata";
 
 function App() {
   const [githubData, setGithubData] = useState({});
@@ -28,13 +29,13 @@ function App() {
     repos: reposData
   }
   return (
-    <ThemeContext value={contextData}>
-      <div className="App">
-        <Navbar />
+    <ThemeProvider value={contextData}>
+         <Navbar />
+         <Avatar/>
         <Bio />
         <Projects/>
-      </div>
-    </ThemeContext>
+    </ThemeProvider>
+    
   );
 }
 
