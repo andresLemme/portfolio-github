@@ -1,0 +1,10 @@
+.projests_box{
+  width: 100%;
+    max-width: 600px;
+    display: flex;
+    margin: auto;
+    .list_projects{
+      list-style: none;
+    padding: 0;
+    }
+}
