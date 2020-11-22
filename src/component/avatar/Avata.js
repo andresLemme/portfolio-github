@@ -6,7 +6,7 @@ function Avatar() {
   const {info} = useContext(ThemeContext);
   return(
     <div className="avatar">
-      <img className="img_avatar" src={info.avatar_url} />
+      <img className="img_avatar" src={info.avatar_url} alt="perfil Andres" />
     </div>
   )
 }

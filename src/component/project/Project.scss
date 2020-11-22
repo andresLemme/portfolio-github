@@ -1,0 +1,16 @@
+.project_box {
+  width: 290px;
+  height: 100px;
+  background-color: #b7e411;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  .title_box{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+}
