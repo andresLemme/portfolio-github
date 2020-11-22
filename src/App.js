@@ -29,7 +29,7 @@ function App() {
     repos: reposData
   }
   return (
-    <ThemeProvider value={contextData}>
+    <ThemeProvider  value={contextData}>
          <Navbar />
          <Avatar/>
         <Bio />
