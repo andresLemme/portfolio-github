@@ -9,7 +9,7 @@ function Project(props) {
         <li>{name}</li>
       </div>
       <div className="btn_box">
-        <a className="btn" href={clone_url}>Ver Repo</a>
+        <a className="btn" href={clone_url} target="_blank">Ver Repo</a>
       </div>
     </div>
   );
