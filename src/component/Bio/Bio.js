@@ -7,7 +7,7 @@ function Bio() {
   const {info} = useContext(ThemeContext);
   return(
     <div className="bio_box">
-      <p>{info.bio}</p>
+      <p className="title">{info.bio}</p>
     </div>
   )
 }

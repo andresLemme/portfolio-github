@@ -8,13 +8,23 @@
   justify-content: center;
   align-items: center;
   margin: 5px;
-  .title_box{
+  @media (max-width: 768px){
+    width: 360px; 
+  }
+  @media (max-width: 375px){
+    width: 340px;
+    
+  }
+  @media (max-width: 320px){
+    width: 300px;
+  }
+  
+  .title_box {
     width: 100%;
     text-align: center;
     font-weight: bold;
   }
-  .btn_box{
-
+  .btn_box {
     .btn {
       width: 200px;
       height: 100px;
@@ -23,11 +33,10 @@
       list-style: none;
       text-decoration: none;
       color: #000000;
-      &:hover{
+      &:hover {
         color: #ffffff;
         background-color: #000000;
       }
+    }
   }
-  }
-  
 }

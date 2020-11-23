@@ -3,9 +3,14 @@
     max-width: 900px;
     display: flex;
     margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
     .list_projects{
       max-width: 900px;
       list-style: none;
     padding: 0;
+    @media (max-width: 768px){
+      margin: auto ;
+    }
     }
 }
