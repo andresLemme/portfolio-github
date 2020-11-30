@@ -1,12 +1,12 @@
 .projests_box{
   width: 100%;
-    max-width: 900px;
     display: flex;
     margin: auto;
     padding-bottom: 40px;
     text-align: center;
+    justify-content: center;
     .list_projects{
-      max-width: 900px;
+      max-width: 920px;
       list-style: none;
     padding: 0;
     @media (max-width: 768px){
